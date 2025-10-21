@@ -46,10 +46,11 @@ jupyter notebook emotion_detection.ipynb
 
 📁 Folder Structure
 📂 emotion-detection-opencv/
- ┣ 📁 dataset/              # Emotion image dataset (e.g., FER2013)
- ┣ 📁 models/               # Trained models (if saved)
+ ┣ 📄 main.py               # main program
+ ┣ 📄 datafile.py           # Emotion image dataset (e.g., FER2013)
+ ┣ 📄 model.py              # Trained models (if saved)
  ┣ 📁 haarcascades/         # Haar cascade XML files for face detection
- ┣ 📄 emotion_detection.py  # Main program
+ ┣ 📄 webcam_detectior.py   # Collects emotions through camera 
  ┣ 📄 requirements.txt      # List of dependencies
  ┣ 📄 README.md             # Project documentation
  ┗ 📄 LICENSE               # License (optional)
